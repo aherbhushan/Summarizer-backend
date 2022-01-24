@@ -1,0 +1,73 @@
+Set of questions asked last yr for LP1
+
+Hadoop-Apache Hadoop is an open source framework that is used to efficiently store and process large datasets ranging in size from gigabytes to petabytes of data. Instead of using one large computer to store and process the data, Hadoop allows clustering multiple computers to analyze massive datasets in parallel more quickly.
+
+Goal stack
+
+Cuda-CUDA (or Compute Unified Device Architecture) is a parallel computing platform and application programming interface (API) that allows software to use certain types of graphics processing unit (GPU) for general purpose processing – an approach called general-purpose computing on GPUs (GPGPU).
+
+Business intelligence----What is business intelligence? Business intelligence is the collection, methodology, organization, and analysis of data. When most people use the term business intelligence or BI, they are referring to the platforms and practices for the collection, integration, analysis, and presentation of business information.
+
+Business intelligence Vs Data science
+
+Open Mp----------OpenMP is a set of compiler directives as well as an API for programs written in C, C++, or FORTRAN that provides support for parallel programming in shared-memory environments
+
+Shared memory ----- is a technology that enables computer programs to simultaneously share memory resources for higher performance and fewer redundant data copies. Shared system memory can run on single processor systems, parallel multiprocessors, or clustered microprocessors
+
+Dfs-Depth-first search (DFS) is an algorithm for searching a graph or tree data structure. The algorithm starts at the root (top) node of a tree and goes as far as it can down a given branch (path), then backtracks until it finds an unexplored path, and then explores it.
+
+Depth first search (DFS) algorithm starts with the initial node of the graph G, and then goes to deeper and deeper until we find the goal node or the node which has no children. The algorithm, then backtracks from the dead end towards the most recent node that is yet to be completely unexplored.
+The data structure which is being used in DFS is stack. The process is similar to BFS algorithm. In DFS, the edges that leads to an unvisited node are called discovery edges while the edges that leads to an already visited node are called block edges
+
+Time complexity of merge sort-----O(n*Log n)
+
+Cuda limitations---------
+Later versions of CUDA do not provide emulators or fallback support for older versions.
+No recursive functions
+Minimum unit block of 32 threads
+Closed CUDA architecture, it belongs to NVIDIA.
+
+
+Bfs-------Why BFS algorithm is used?
+Image result for what is bfs algorithm
+Breadth-first search (BFS) is an important graph search algorithm that is used to solve many problems including finding the shortest path in a graph and solving puzzle games
+
+Breadth first search is a graph traversal algorithm that starts traversing the graph from root node and explores all the neighbouring nodes. Then, it selects the nearest node and explore all the unexplored nodes. The algorithm follows the same process for each of the nearest node until it finds the goal.
+
+
+Dfs
+
+Time calculation in sequential and parallel prog----
+In sequential composition, different program components execute in sequence on all processors. In parallel composition, different program components execute concurrently on different processors. ... Execution of a program leads to a sequence of calls to functions defined in different modules
+
+
+Type 1 error type 2 error-- 
+https://medium.com/acing-ai/what-is-better-a-type-i-or-a-type-ii-error-960f7d1799df
+
+Cuda work flow-----The first step is, CPU, to allocate memory on the GPU and move the input data from the CPU to the GPU memory. The second step is, CPU, to instruct to GPU to execute a code in parallel. The third and last step, is to move back the results of the computation on the GPU, from the GPU to the CPU.
+
+Tools used for big data-----
+Hadoop.
+MongoDB.
+Cassandra.
+Cloudera.
+OpenRefine.
+
+Enlist the tools of big data
+
+Components of Hadoop-----HDFS, MapReduce, YARN, and Hadoop Common
+HDFS: Hadoop Distributed File System
+YARN: Yet Another Resource Negotiator
+MapReduce: Programming based Data Processing
+
+What is a robot
+
+Difference between Data science and Business int
+
+Goal stack planning----Goal Stack Planning (in short GSP) is the one of the simplest planning algorithm that is designed to handle problems having compound goals. ... This approach uses a Stack for plan generation. The stack can contain Sub-goal and actions described using predicates. The Sub-goals can be solved one by one in any order
+
+Chaining
+
+Swipl prologue
+
+Quick sort

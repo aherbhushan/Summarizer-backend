@@ -6,7 +6,9 @@ from transcript import get_transcript_of_yt_video
 from translate import g_translate
 from download import makeTextFile
 
+nltk.download('punkt')
 nltk.download('stopwords')
+
 
 
 def text_summarizer(text):
@@ -91,7 +93,7 @@ def nlp_model(v_id):
 
         hindi_translated_summary = g_translate(english_summary, 'hi')
 
-        gujarati_translated_summary = g_translate(english_summary, 'gu')
+        gujarati_translated_summary = g_translate(english_summary, 'mr')
 
         # print(original_text_length, '-->', final_summary_length)
         # print(final_smy)
